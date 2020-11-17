@@ -61,7 +61,7 @@ app.get('/',(req,res)=>{
 
 app.get('*',(req,res)=>{
     res.render('404',{name:"Tajamul Basheer",error:"404 error cannot find"})
-})
+}) 
 
 app.listen(port, () => {
     console.log('Server is up on port'+port);
